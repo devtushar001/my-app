@@ -1,7 +1,9 @@
+import Hero from "../Components/Hero/Hero";
+
 const Shop = () => {
     return (
         <>
-         <h1>Shop Page</h1> 
+         <Hero />
         </>
     )
 }
