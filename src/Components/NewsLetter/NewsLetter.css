@@ -1,0 +1,58 @@
+.newsletter {
+    width: 65%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0 140px;
+    margin-bottom: 150px;
+    background: linear-gradient(180deg, #3f99de 0%, #e1ffea22 60%);
+}
+
+.newsletter h1 {
+    color: #454545;
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.newsletter p {
+    margin: 40px auto;
+    color: #454545;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.newsletter div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    width: 730px;
+    height: 70px;
+    border-radius: 80px;
+    border: 1px solid #e3e3e3;
+}
+
+.newsletter input {
+    width: 500px;
+    margin-left: 30px;
+    border: none;
+    outline: none;
+    color: #616161;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+}
+
+.newsletter div button {
+   width: 210px;
+   height: 70px;
+   border-radius: 80px;
+   border: none;
+   font-size: 22px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   background-color: #000;
+   color: white;
+   cursor: pointer;
+} 
