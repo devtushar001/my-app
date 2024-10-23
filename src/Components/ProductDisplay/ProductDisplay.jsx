@@ -39,12 +39,10 @@ const ProductDisplay = (props) => {
                     </div>
                     <div className="productdisplay-right-description">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, mollitia excepturi repellat possimus sapiente, unde placeat ex exercitationem ipsum voluptas, nemo rerum quo dicta voluptatibus nisi consequatur! Quibusdam, at repudiandae!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aut ab ullam necessitatibus repellendus magni, maxime non quasi, ad, quas eveniet vel reiciendis dolore! Aperiam magnam officiis ut. Quibusdam, asperiores.
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, aliquid dolorem ut, repellat cupiditate dicta voluptates nihil blanditiis impedit laboriosam numquam, harum quia deleniti. Quis explicabo at quod dicta labore?
                     </div>
                     <div className="productdisplay-right-size">
                         <h1>Select Size</h1>
-                        <div className="productdisplay-right-size">
+                        <div className="productdisplay-right-sizes">
                             <div>S</div>
                             <div>M</div>
                             <div>L</div>
@@ -52,7 +50,10 @@ const ProductDisplay = (props) => {
                             <div>XXL</div>
                         </div>
                     </div>
-                    <button>ADD TO CART</button>
+                    <div>
+                        <button className="buy-now">BUY NOW</button>
+                        <button>ADD TO CART</button>
+                    </div>
                     <p className="productdisplay-right-category"> <span>Category : Women, T-Shirt, Crop Top</span></p>
                     <p className="productdisplay-right-category"> <span>Tags : Modern, Latest</span></p>
                 </div>
