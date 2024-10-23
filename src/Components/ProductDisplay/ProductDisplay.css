@@ -1,6 +1,7 @@
 .productdisplay {
     display: flex;
     margin: 0px 170px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 .productdisplay-left {
@@ -83,8 +84,8 @@
 }
 
 .productdisplay-right button {
-    padding: 20px 40px;
-    width: 200px;
+    padding: 17px 38px;
+    width: 180px;
     font-size: 16px;
     font-weight: 600;
     color: white;
@@ -97,14 +98,14 @@
 }
 
 .productdisplay-right .buy-now {
-    padding: 20px 40px;
+    padding: 17px 38px;
     width: 200px;
     font-size: 16px;
     font-weight: 600;
     color: white;
     background: #ff8c00;
     border: none;
-    margin-right: 5px;
+    margin-right: 20px;
     margin-bottom: 40px;
     cursor: pointer;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
